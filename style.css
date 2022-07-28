@@ -30,10 +30,12 @@ body {
 #headerBarRight {
 
     min-width: 250px;
+    width: 350px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin-right: 30px;
+    
 }
 .bodyMain {
     display: flex;
@@ -102,3 +104,24 @@ ul, ol {
     align-items: center;
     justify-content: center;
 }
+
+.twoBody{
+    display: flex;
+    flex-direction: column;
+    background-image: url(./img/pagetwo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px -100px;
+}
+
+.pageTwoMain {
+    margin-top: 500px;
+    padding: 0px 0px 0px 150px;
+    font-size: 30px;
+}
+
+.pageTwoContent {
+    padding: 200px 400px 0px 400px;
+    font-size: 20px;
+}
+
