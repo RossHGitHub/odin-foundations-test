@@ -125,3 +125,38 @@ ul, ol {
     font-size: 20px;
 }
 
+#twoHeader2 {
+    padding: 30px 0px 0px 100px;
+    font-size: 50px;
+}
+
+.twoSub {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding: 0px 200px 0px 200px;
+    background-image: linear-gradient(white,rgb(91, 91, 139));
+    padding-bottom: 50px;
+
+}
+
+#ferris {
+    height: 700px;
+    width: auto;
+    border-radius: 30px;
+    border: double 15px black;
+}
+
+#twoSubText {
+    display: flex;
+    width: 500px;
+    max-height: 700px;
+    font-size: 17px;
+    overflow: hidden;
+}
+
+.twoLastContainer {
+    height: 800px;
+    background-color: rgb(91, 91, 139);
+
+}
